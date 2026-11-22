@@ -10,6 +10,8 @@ A React post-list application built with Vite.
 - Close the modal using the backdrop or after submission
 
 ## Getting Started
+<img width="1472" height="757" alt="image" src="https://github.com/user-attachments/assets/f35f20e4-b590-4d30-b1c7-622923c701c5" />
+
 
 ### Install dependencies
 
