@@ -28,7 +28,7 @@ function PostList({ modalIsVisible, onCloseModal }) {
     <>
       {modalIsVisible ? (
         <Modal onClose={onCloseModal}>
-          <NewPost onAddPost={addPostHandler} />
+          <NewPost onAddPost={addPostHandler} onCloseModal={onCloseModal} />
         </Modal>
       ) : null}
 

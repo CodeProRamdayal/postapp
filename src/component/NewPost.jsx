@@ -1,7 +1,7 @@
 import { useState } from "react";
 import classes from "./NewPost.module.css";
 
-function NewPost({ onAddPost }) {
+function NewPost({ onAddPost, onCloseModal }) {
   const [post, setPost] = useState({
     contentBody: "",
     authorName: "",
@@ -41,7 +41,12 @@ function NewPost({ onAddPost }) {
         />
       </p>
 
-      <button type="submit">Submit</button>
+      <section style={{ display: "flex", justifyContent: "space-between" }}>
+        <button type="submit">Submit</button>
+        <button type="cancel" onClick={() => onCloseModal()}>
+          Cancel
+        </button>
+      </section>
     </form>
   );
 }
