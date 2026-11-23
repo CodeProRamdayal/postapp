@@ -2,7 +2,7 @@
     background-color: #6233b9;
     padding: 1rem;
     width: min(20rem, calc(100vw - 4rem));
-    margin: 0;
+    margin: 1rem auto;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
